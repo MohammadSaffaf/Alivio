@@ -1,0 +1,173 @@
+/* font-family: 'Lato', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 1%;
+}
+.nav1 {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.nav2 {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.start a {
+  background-color: #01996d;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 3px;
+}
+
+.index-header {
+  background: url(../img/BG.png) center / cover no-repeat;
+  height: 90vh;
+}
+.header-section {
+  padding-top: 10%;
+  margin-left: 10%;
+}
+.header-section h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #01996d;
+  font-size: 5rem;
+  width: 40%;
+  margin-bottom: 2%;
+}
+.header-section p {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  width: 30%;
+  margin-bottom: 5%;
+}
+.header-section button {
+  background-color: #01996d;
+  color: white;
+  padding: 20px 60px;
+  border-radius: 3px;
+  border: #01996d;
+  font-size: 15px;
+}
+.understand {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+
+  margin-top: 10%;
+  height: 30vh;
+}
+.how-it {
+  margin-top: -3%;
+}
+.how-it h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #01996d;
+  font-size: 4rem;
+  width: 90%;
+}
+.how-it p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+.Alivio {
+  width: 63%;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.card {
+  min-height: 100vh;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.card section {
+  height: 80vh;
+  width: 30%;
+}
+.Personalize {
+  background: url(../img/01.png) left/ 50% no-repeat;
+  height: 15vh;
+  margin-bottom: 15%;
+}
+.Personalize h2 {
+  padding-top: 26%;
+  padding-left: 35%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+.Write-Understand {
+  background: url(../img/02.png) left/ 50% no-repeat;
+  height: 15vh;
+  margin-bottom: 15%;
+  margin-top: 50%;
+}
+.Write-Understand h2 {
+  padding-top: 26%;
+  padding-left: 30%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+.Alivio-03 {
+  background: url(../img/03.png) left/ 50% no-repeat;
+  height: 15vh;
+  margin-bottom: 15%;
+  margin-top: 20%;
+}
+.Alivio-03 h2 {
+  padding-top: 26%;
+  padding-left: 36%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+.card img {
+  width: 100%;
+  margin-top: 10%;
+}
+.card p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  width: 90%;
+  margin-left: 7%;
+}
+footer {
+  margin-top: 15%;
+  height: 40vh;
+  background-color: #245852;
+  line-height: 70px;
+  padding-top: 5%;
+  padding-left: 10%;
+  font-size: 20px;
+}
+footer a {
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+footer img {
+  width: 6%;
+}
